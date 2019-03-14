@@ -23,6 +23,7 @@ int main()
    {
      if (dataset[n] == valueToFind) {
        bool = 1;
+       n = sizeOfArray;
      }
    }
    clock_t end = clock();
